@@ -300,6 +300,51 @@ button{
     border-radius: 0.5rem;
     border:2px solid black;
 }
+
+.menu {
+	animation-name: colorful;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes colorful {
+	0% {
+	  color: teal;
+	}
+	10% {
+		color: gold;
+      }
+    20% {
+    color: cadetblue;
+    }
+    
+	30% {
+	  color: coral;
+    }
+    40%{
+        color:crimson;
+    }
+    50%{
+        color: forestgreen;
+    }
+    60%{
+        color: darkorchid;
+    }
+    70%{
+        color: hotpink;
+    }
+    80%{
+        color: indigo;
+    }
+    90%{
+        color: dodgerblue;
+    }
+    100%{
+        color:black;
+    }
+  }
+
+
 /* media query */
 @media only screen and (max-width: 500px) {
     .top-content {
