@@ -450,36 +450,37 @@ button{
     /* About Page below */
     
     .about {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 3% 0;
+        display: block;
+        margin: 3%;
         padding: 3% 2%;
         border-bottom: 1px dashed black;
     }
     .middle-section{
-        display: flex;
-        flex-wrap: wrap;
+        display: block;
+        margin: 3%;
         width: 100%;
         justify-content: space-around;
         margin: 0 auto;
     }
     .section{
-        width:44%;
+        width:100%;
         /* padding: 2% 1.5%; */
-        margin: 4% 0; 
+        margin: 3%;
         padding: 0 0 4% 0;
         border-bottom: 1px dashed black;
     
     }
     
     h4 {
-        margin: 4% 0;
+        margin: 4%;
     }
     p{
         line-height: 20px;
+    
     }
     p.last-paragraph{
         margin-bottom: 4%;
+        margin: 0 4%;
     }
     button{
         font-size: 1rem;
