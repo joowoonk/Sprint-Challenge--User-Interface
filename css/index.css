@@ -4,7 +4,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -275,8 +275,28 @@ footer nav a {
     margin: 0 auto;
 }
 .section{
-    background-color: lightgray;
 	width:44%;
-	padding: 2% 1.5%;
-	margin: 2.5% 1%;
+	/* padding: 2% 1.5%; */
+    margin: 4% 0; 
+    padding: 0 0 4% 0;
+    border-bottom: 1px dashed black;
+
+}
+
+h4 {
+    margin: 4% 0;
+}
+p{
+    line-height: 20px;
+}
+p.last-paragraph{
+    margin-bottom: 4%;
+}
+button{
+    font-size: 0.75rem;
+    width: 30%;
+    height: 10%;
+    margin: 5% 0;
+    border-radius: 0.5rem;
+    border:2px solid black;
 }
