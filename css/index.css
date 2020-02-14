@@ -271,7 +271,7 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 auto;
 }
 .section{
@@ -293,10 +293,200 @@ p.last-paragraph{
     margin-bottom: 4%;
 }
 button{
-    font-size: 0.75rem;
+    font-size: 1rem;
     width: 30%;
     height: 10%;
     margin: 5% 0;
     border-radius: 0.5rem;
     border:2px solid black;
+}
+/* media query */
+@media only screen and (max-width: 500px) {
+    .top-content {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+    }
+    .top-content .text-container{
+        width:100%;
+    }
+    
+    
+    div.text-container{
+        width:100%;
+
+    }
+    
+    .middle-content {
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+    }
+    
+    .middle-content h2 {
+        padding: 0 2%;
+        margin-bottom: 0;
+    }
+    
+    .middle-content .boxes {
+        display:block;
+    }
+    
+    .middle-content .boxes .box1 {
+        text-align: center;
+        margin-left:5%;
+        padding: 45%;
+        background: teal;
+        margin: 20px 2.5%;
+        color: white;
+    }
+    .middle-content .boxes .box2 {
+        text-align: center;
+        margin-left:5%;
+        padding: 45%;
+        background: gold;
+        margin: 20px 2.5%;
+        color: white;
+    }
+    .middle-content .boxes .box3 {
+        text-align: center;
+        margin-left:5%;
+        padding: 45%;
+        background: cadetblue;
+        margin: 20px 2.5%;
+        color: white;
+    }
+    .middle-content .boxes .box4 {
+        text-align: center;
+        margin-left:5%;
+        padding: 45%;
+        background: coral;
+        margin: 20px 2.5%;
+        color: white;
+    }
+    .middle-content .boxes .box5 {
+        text-align: center;
+        margin-left:5%;
+        padding: 45%;
+        background: crimson;
+        margin: 20px 2.5%;
+        color: white;
+    }
+    .middle-content .boxes .box6 {
+        text-align: center;
+        margin-left:5%;
+        padding: 45%;
+        background: forestgreen;
+        margin: 20px 2.5%;
+        color: white;
+    }
+    .middle-content .boxes .box7 {
+        text-align: center;
+        margin-left:5%;
+        padding: 45%;
+        background: darkorchid;
+        margin: 20px 2.5%;
+        color: white;
+    }
+    .middle-content .boxes .box8 {
+        text-align: center;
+        margin-left:5%;
+        padding: 45%;
+        background: hotpink;
+        margin: 20px 2.5%;
+        color: white;
+    }
+    .middle-content .boxes .box9 {
+        text-align: center;
+        margin-left:5%;
+        padding: 45%;
+        background: indigo;
+        margin: 20px 2.5%;
+        color: white;
+    }
+    .middle-content .boxes .box10 {
+        text-align: center;
+        margin-left:5%;
+        padding: 45%;
+        background: dodgerblue;
+        margin: 20px 2.5%;
+        color: white;
+    }
+    
+    
+    .bottom-content {
+        display: block;
+        margin: 0 2% 20px;
+        justify-content: space-around;
+    }
+    
+    .bottom-content .text-container {
+        margin: 10% 0;
+        padding-right: 4%;
+    }
+    
+    .bottom-content .text-container:last-child {
+        padding-right: 0;
+    }
+    
+    footer {
+        width: 100%;
+        background: black;
+    }
+    
+    footer nav {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 2%;
+        font-size: 14px;
+    }
+    
+    footer nav a {
+        color: white;
+        text-decoration: none;
+    }
+    /* About Page below */
+    
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 3% 0;
+        padding: 3% 2%;
+        border-bottom: 1px dashed black;
+    }
+    .middle-section{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+    .section{
+        width:44%;
+        /* padding: 2% 1.5%; */
+        margin: 4% 0; 
+        padding: 0 0 4% 0;
+        border-bottom: 1px dashed black;
+    
+    }
+    
+    h4 {
+        margin: 4% 0;
+    }
+    p{
+        line-height: 20px;
+    }
+    p.last-paragraph{
+        margin-bottom: 4%;
+    }
+    button{
+        font-size: 1rem;
+        width: 30%;
+        height: 10%;
+        margin: 5% 0;
+        border-radius: 0.5rem;
+        border:2px solid black;
+    }
 }
