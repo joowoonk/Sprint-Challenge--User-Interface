@@ -82,6 +82,10 @@ nav.navigation{
     margin-top: 3%;
     width: 100%;   
 }
+a{
+    text-decoration: none;
+    color: darkgrey;
+}
 
 .road-picture{
     margin: 3% 0;
