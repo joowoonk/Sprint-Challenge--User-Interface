@@ -295,7 +295,7 @@ p.last-paragraph{
 button{
     font-size: 1rem;
     width: 30%;
-    height: 10%;
+    height: 8%;
     margin: 5% 0;
     border-radius: 0.5rem;
     border:2px solid black;
@@ -306,7 +306,9 @@ button{
     animation-duration: 10s;
     animation-iteration-count: infinite;
   }
-  
+
+
+
   @keyframes colorful {
 	0% {
 	  color: teal;
@@ -343,6 +345,21 @@ button{
         color:black;
     }
   }
+
+ /* contact down below */ 
+ .textarea-and-picture{
+     display:flex;
+     width:100%;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     background-color:lightslategray;
+ }
+ .text-area{
+     width:40%;
+ }
+.label{
+    font-size: 3rem;
+}
 
 
 /* media query */
